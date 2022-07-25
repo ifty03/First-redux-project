@@ -1,0 +1,48 @@
+.card{
+    background-color: beige;
+    padding: 40px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 20px 0px;
+}
+.title{
+    background-color: rgb(6, 2, 24);
+    height: 50px;
+    width: 100%;
+    border-radius: 20px 0px;
+}
+.text{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 12px;
+}
+.input{
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.inc{
+    background-color: rgb(2, 177, 2);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    cursor: pointer;
+    
+}
+.inc:hover{
+    background-color: green;
+}
+.dec{
+    background-color: rgb(255, 56, 56);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    cursor: pointer;
+    margin: 0px 10px;
+    
+}
+.dec:hover{
+    background-color: rgb(234, 0, 0);
+}

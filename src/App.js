@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import CounterPage from "./Pages/CounterPage";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h2>hello Redux how are your</h2>
+    <div>
+      <CounterPage />
     </div>
   );
-}
+};
 
 export default App;
